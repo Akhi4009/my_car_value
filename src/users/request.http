@@ -3,7 +3,28 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "akhilesh@gmail.com",
+    "email": "akhilesh123@gmail.com",
     "password": "akhilesh"
 }
 
+### Find a perticular user with a given ID
+
+GET http://localhost:3000/auth/1
+
+### Find all users with a given email
+
+GET http://localhost:3000/auth?email=akhilesh123@gmail.com
+
+
+### Delete a user with given a id
+
+DELETE  http://localhost:3000/auth/1
+
+### Update a user
+
+PATCH http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
+    "email":"akhi@gmail.com"
+}
