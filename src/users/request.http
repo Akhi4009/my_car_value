@@ -9,7 +9,7 @@ Content-Type: application/json
 
 ### Find a perticular user with a given ID
 
-GET http://localhost:3000/auth/4
+GET http://localhost:3000/auth/5
 
 ### Find all users with a given email
 
