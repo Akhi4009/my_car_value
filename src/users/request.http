@@ -7,6 +7,16 @@ Content-Type: application/json
     "password": "akhilesh"
 }
 
+### signin user
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "akhilesh@gmail.com",
+    "password": "akhilesh"
+}
+
 ### Find a perticular user with a given ID
 
 GET http://localhost:3000/auth/10
