@@ -3,13 +3,13 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "akhilesh123456@gmail.com",
+    "email": "akhilesh@gmail.com",
     "password": "akhilesh"
 }
 
 ### Find a perticular user with a given ID
 
-GET http://localhost:3000/auth/5
+GET http://localhost:3000/auth/10
 
 ### Find all users with a given email
 
