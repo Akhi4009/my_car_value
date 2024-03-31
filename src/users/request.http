@@ -3,7 +3,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "akhilesh@gmail.com",
+    "email": "akhilesh1@gmail.com",
     "password": "akhilesh"
 }
 
@@ -16,6 +16,10 @@ Content-Type: application/json
     "email": "akhilesh@gmail.com",
     "password": "akhilesh"
 }
+
+### Get the currently signin user
+
+GET http://localhost:3000/auth/whoami
 
 ### Find a perticular user with a given ID
 
